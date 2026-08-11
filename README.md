@@ -529,43 +529,58 @@ Shows:
 ## Project Structure
 
 ```text
-ManoTech-Enterprise-Lab
-│
-├── Documentation
-│   │
-│   ├── 01-Project-Overview
-│   ├── 02-Requirements
-│   ├── 03-Architecture
-│   ├── 04-Network-Design
-│   ├── 05-Server-Inventory
-│   │
-│   ├── Infrastructure
-│   │   ├── Active Directory
-│   │   ├── DNS
-│   │   ├── DHCP
-│   │   ├── File Server
-│   │   ├── IIS
-│   │   ├── AD CS
-│   │   ├── WSUS
-│   │   ├── Group Policy
-│   │   └── RRAS
-│   │
-│   ├── Security
-│   ├── Validation
-│   ├── Troubleshooting
-│   └── Linux Integration
-│
-├── Screenshots
+MANOTECH-LAB-DOCUMENTATION
 │
 ├── Diagrams
-│   ├── Physical Network Topology
-│   ├── Active Directory Structure
-│   └── Group Policy Structure
+│   ├── AD-Structure.png
+│   ├── GP-Structure.png
+│   └── Physical-Topology.png
 │
-├── Group Policies
+└── Documentation
+│    │
+│    ├── Infrastructure
+│    │   └── 06-Active Directory
+│    │   ├── 07-DNS
+│    │   ├── 08-DHCP
+│    │   ├── 09-File Server
+│    │   ├── 10-IIS
+│    │   ├── 11-AD CS
+│    │   ├── 12-WSUS
+│    │   └── 13-RRAS
+│    │
+│    ├── 01-Project-Overview.md
+│    ├── 02-Requirements.md
+│    ├── 03-Architecture.md
+│    ├── 04-Network-Design.md
+│    ├── 05-Server-Inventory.md
+│    │
+│    └── Testing&Troubleshooting
+│        │
+│        ├── 14-Testing-and-Validation
+│        │   ├── 01-Network-Connectivity.md
+│        │   ├── 02-DNS-Validation.md
+│        │   ├── 03-DHCP-Validation.md
+│        │   ├── 04-Active-Directory-Validation.md
+│        │   ├── 05-File-Server-Validation.md
+│        │   ├── 06-IIS-Validation.md
+│        │   ├── 07-AD-CS-Validation.md
+│        │   ├── 08-WSUS-Validation.md
+│        │   ├── 09-RRAS-Validation.md
+│        │   └── 10-Integration-Testing.md
+│        │
+│        └── 15-Troubleshooting
+│            ├── 01-VMware-Networking.md
+│            ├── 02-Active-Directory.md
+│            ├── 03-DNS.md
+│            ├── 04-DHCP.md
+│            ├── 05-Group-Policy.md
+│            ├── 06-File-Server.md
+│            ├── 07-AD-CS.md
+│            └── 08-WSUS.md
 │
-└── README.md
-```
+│   
+└──────── 16-Lessons-Learned
+
 
 ---
 
